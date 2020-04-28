@@ -1,6 +1,6 @@
 import QtQuick 2.12
 import QtQuick.Window 2.12
-import QtQuick.Controls 2.12
+import QtQuick.Controls 2.14
 import QtQuick.Controls.Styles 1.4
 import QtGraphicalEffects 1.12
 
@@ -17,7 +17,6 @@ ApplicationWindow {
         id: background
         visible: true
         source: "poto/Desktop - 5.png"
-
 
         Column {
             id: column
@@ -59,13 +58,14 @@ ApplicationWindow {
                     focus: true
                     highlight: highlightbar
                     highlightFollowsCurrentItem: true
+                    currentIndex: -1
                     onCurrentItemChanged: console.log(model.get(sidebar.currentIndex).name + ' selected')
                 }
 
                 ListModel{
                     id:listmodel
-                    ListElement{imagepath:"poto/vc.png"; name:"Movie"}
-                    ListElement{imagepath:"poto/Vector.png"; name:"Schedule"}
+                    ListElement{imagepath:"poto/vc.png"; name:"Movie"; source:"MovPage.qml"}
+                    ListElement{imagepath:"poto/Vector.png"; name:"Schedule"; source:"SchedPage.qml"}
                     ListElement{imagepath:"poto/euro1.png"; name:"Payment"}
                     ListElement{imagepath:"poto/iconmonstr-user-29 1.png"; name:"About Us"}
                 }
@@ -110,15 +110,14 @@ ApplicationWindow {
                                 ColorOverlay{
                                     anchors.fill: imageitem
                                     source: imageitem
-                                    color: itemDelegate.ListView.isCurrentItem ? "#E2FF71" : "white"
-                                }
+                                    color: itemDelegate.ListView.isCurrentItem ? "#E2FF71" : "white"}
                             }
-
-                        }
+                            }
                         MouseArea{
                             cursorShape: Qt.PointingHandCursor
                             anchors.fill: parent
-                            onClicked: sidebar.currentIndex = index}
+                            onClicked: {sidebar.currentIndex = index
+                                        stackView.replace(model.source)} }
                     }
                 }
 
@@ -139,6 +138,7 @@ ApplicationWindow {
                                   }
                               }
                 }
+
 
                 Button{
                     x: 58
@@ -165,8 +165,44 @@ ApplicationWindow {
                 }
             }
         }
+
+        Column {
+            id: column1
+            x: 260
+            y: 0
+            width: 1240
+            height: 843
+
+            StackView {
+                id: stackView
+                width: parent.width
+                height: parent.height
+                initialItem: MovPage{}
+                replaceEnter: Transition {
+                   PropertyAnimation{
+                   property: "opacity"
+                   from: 0
+                   to: 1
+                   duration: 300}}
+                replaceExit: Transition {
+                    PropertyAnimation{
+                    property: "opacity"
+                    from:1
+                    to:0
+                    duration: 200}}
+            }
+        }
+
+
     }
+    }
+
+
+
+
+
+/*##^##
+Designer {
+    D{i:29;anchors_height:200}
 }
-
-
-
+##^##*/
