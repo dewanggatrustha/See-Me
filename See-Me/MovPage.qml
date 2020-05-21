@@ -7,14 +7,6 @@ Item {
     width: 1240
     height: 843
 
-    /*function navigate(page){
-    loader.source =  page + ".qml"}
-
-    Loader{
-    id:loader
-    anchors.fill:parent
-    source: MovPage.qml}*/
-
     Image {
         id: image
         x: 985
