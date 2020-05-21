@@ -3,6 +3,21 @@ import QtQuick 2.0
 Item {
     width: 1240
     height: 843
+    
+    Image {
+        id: backnavigation
+        x: 43
+        y: 64
+        width: 74
+        height: 70
+        source: "poto/left-arrow.png"
+        MouseArea{
+            anchors.fill:parent
+            cursorShape: Qt.PointingHandCursor
+            onClicked:{console.log("back");stackView.replace("SeatPage.qml")}
+        }
+    }
+    
     Rectangle{
         x:113
         y:179
@@ -65,17 +80,17 @@ Item {
                 height: 68
                 color: "#000000"
                 radius: 20
-                TextEdit {
-                    id: textEdit
+                TextArea {
+                    id: textArea
                     x: 24
                     y: 10
                     height: 50
                     width:439
                     color: "#e3ff71"
-                    //anchors.left: parent
-                    text: qsTr("Owner of the Card")
+                    placeholderText: qsTr("Owner of the Card")
                     font.bold: true
-                    font.pixelSize: 20}
+                    font.pixelSize: 20
+                    focus: true}
             }
 
             Rectangle {
@@ -85,18 +100,17 @@ Item {
                 height: 68
                 color: "#000000"
                 radius: 20
-                TextEdit {
-                    id: textEdit1
+                TextArea {
+                    id: textArea2
                     x: 24
                     y: 10
                     height: 50
                     width:441
                     color: "#e3ff71"
-                    text: qsTr("Card Number")
-                    //anchors.left: parent
+                    placeholderText: qsTr("Card Number")
                     font.bold: true
                     font.pixelSize: 20
-                }
+                    focus: true}
             }
 
             Rectangle {
@@ -106,18 +120,17 @@ Item {
                 height: 68
                 color: "#000000"
                 radius: 20
-                TextEdit {
-                    id: textEdit2
+                TextArea {
+                    id: textArea3
                     x: 20
                     y: 10
                     height: 50
                     width:445
                     color: "#e3ff71"
-                    text: qsTr("Expired Date (00/00/00)")
-                    //anchors.left: parent
+                    placeholderText: qsTr("Expired Date (00/00/00)")
                     font.bold: true
                     font.pixelSize: 20
-                }
+                    focus: true}
             }
         }
 
