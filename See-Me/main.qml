@@ -66,8 +66,8 @@ ApplicationWindow {
                     id:listmodel
                     ListElement{imagepath:"poto/vc.png"; name:"Movie"; source:"MovPage.qml"}
                     ListElement{imagepath:"poto/Vector.png"; name:"Schedule"; source:"SchedPage.qml"}
-                    ListElement{imagepath:"poto/euro1.png"; name:"Payment"}
-                    ListElement{imagepath:"poto/iconmonstr-user-29 1.png"; name:"About Us"}
+                    ListElement{imagepath:"poto/euro1.png"; name:"PaymentPage.qml"}
+                    ListElement{imagepath:"poto/iconmonstr-user-29 1.png"; name:"AboutusPage.qml"}
                 }
 
                 Component{
