@@ -75,8 +75,8 @@ Item {
             
              Text {
                 id: element4
-                x: 128
-                y: 300
+                x: 59
+                y: 330
                 color: "#ffffff"
                 text: qsTr("We have 2 method payment")
                 font.family: "Tahoma"
@@ -195,8 +195,11 @@ Item {
             MouseArea{
                 anchors.fill: parent
                 cursorShape: Qt.PointingHandCursor
-                onClicked: console.log("Payed")}
-        }}
+                onClicked: { stackView.replace("Payment2Page.qml")
+                            console.log("NextPayed") }
+                }
+           }
+        }
     Text {
         id: paymentt
         x: 209
