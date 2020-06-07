@@ -26,6 +26,7 @@ Item {
         color: "black"
         radius:20
         Rectangle{
+            id: rectangle1
             x: 0
             y: 0
             width: 533
@@ -41,36 +42,15 @@ Item {
                     position: 1.0
                     color: "#C84E89"}}
 
-            Image {
-                id: image
-                x: 43
-                y: 506
-                width: 447
-                height: 182
-                fillMode: Image.PreserveAspectFit
-                source: "poto/Bayar.png"
-            }
-
             Text {
                 id: element
                 x: 43
                 y: 85
                 color: "#ffffff"
-                text: qsTr("Your Information")
+                text: qsTr("Your Name")
                 font.bold: true
                 font.family: "Tahoma"
                 font.pixelSize: 30
-            }
-
-            Text {
-                id: element1
-                x: 43
-                y: 259
-                color: "#ffffff"
-                text: qsTr("Card Information")
-                font.bold: true
-                font.pixelSize: 30
-                font.family: "Tahoma"
             }
 
             Rectangle{
@@ -87,51 +67,82 @@ Item {
                     height: 50
                     width:439
                     color: "#e3ff71"
-                    placeholderText: qsTr("Owner of the Card")
+                    placeholderText: qsTr("Write Here")
                     font.bold: true
                     font.pixelSize: 20
                     focus: true}
             }
+            
+             Text {
+                id: element4
+                x: 128
+                y: 300
+                color: "#ffffff"
+                text: qsTr("We have 2 method payment")
+                font.family: "Tahoma"
+                font.bold: true
+                horizontalAlignment: Text.AlignHCenter
+                font.pixelSize: 30
+            }
 
             Rectangle {
                 x: 68
-                y: 317
-                width: 482
+                y: 393
+                width: 405
                 height: 68
                 color: "#000000"
                 radius: 20
-                TextArea {
-                    id: textArea2
+                Text {
+                    id: text1
                     x: 24
                     y: 10
                     height: 50
-                    width:441
+                    width:358
                     color: "#e3ff71"
-                    placeholderText: qsTr("Card Number")
+                    text: qsTr("Via Barcode (QR code)")
+                    verticalAlignment: Text.AlignVCenter
+                    horizontalAlignment: Text.AlignHCenter
                     font.bold: true
                     font.pixelSize: 20
-                    focus: true}
+                    focus: true
+                    }
             }
 
             Rectangle {
                 x: 68
-                y: 406
-                width: 482
+                y: 502
+                width: 405
                 height: 68
                 color: "#000000"
                 radius: 20
                 TextArea {
-                    id: textArea3
+                    id: text2
                     x: 20
                     y: 10
                     height: 50
-                    width:445
+                    width:358
                     color: "#e3ff71"
-                    placeholderText: qsTr("Expired Date (00/00/00)")
+                    text: qsTr("Via Virtual Bank Account")
+                    verticalAlignment: Text.AlignVCenter
+                    horizontalAlignment: Text.AlignHCenter
                     font.bold: true
                     font.pixelSize: 20
-                    focus: true}
+                    focus: true
+                    }
             }
+            
+            Text {
+                x: 241
+                y: 463
+                width: 59
+                height: 37
+                color: "#ffffff"
+                text: qsTr("or")
+                horizontalAlignment: Text.AlignHCenter
+                font.bold: true
+                font.family: "Tahoma"
+                font.pixelSize: 30
+            }  
         }
 
         Image {
@@ -144,8 +155,8 @@ Item {
             source: "poto/cinema(1) 1.png"
         }
 
-        Text {
-            id: element2
+        Label {
+            id: labelharga
             x: 703
             y: 418
             color: "#ffffff"
