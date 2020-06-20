@@ -1,0 +1,53 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>poto/video-camera.png</file>
+        <file>poto/iconmonstr-calendar-9 1.png</file>
+        <file>poto/Vector.png</file>
+        <file>poto/euro1.png</file>
+        <file>poto/euro 1-1.png</file>
+        <file>poto/iconmonstr-user-29 1.png</file>
+        <file>poto/film-roll 1.png</file>
+        <file>poto/SEE ME!.png</file>
+        <file>poto/log out.png</file>
+        <file>poto/Desktop - 5.png</file>
+        <file>poto/iconmonstr-video-camera-1 1.png</file>
+        <file>poto/zz.png</file>
+        <file>poto/vc.png</file>
+        <file>poto/a-quiet-place-2_poster_goldposter_com_1 1.png</file>
+        <file>MovPage.qml</file>
+        <file>poto/iconmonstr-video-8 1.png</file>
+        <file>poto/Untitled-1.png</file>
+        <file>poto/birds-of-prey-and-the-fantabulous-emancipation-of-one-harley-quinn_poster_goldposter_com_1 1.png</file>
+        <file>poto/the-voyage-of-doctor-dolittle_poster_goldposter_com_1 1.png</file>
+        <file>poto/helloworld.jpg</file>
+        <file>poto/spidermen.jpg</file>
+        <file>poto/fantasticbeast.jpg</file>
+        <file>SeatPage.qml</file>
+        <file>poto/office-chair 2.png</file>
+        <file>poto/A B C D E.png</file>
+        <file>SchedPage.qml</file>
+        <file>poto/calendar 1.png</file>
+        <file>PaymentPage.qml</file>
+        <file>poto/wallet 2.png</file>
+        <file>poto/cinema(1) 1.png</file>
+        <file>poto/left-arrow.png</file>
+        <file>poto/film-roll-1.ico</file>
+        <file>AboutusPage.qml</file>
+        <file>poto/Intersect.png</file>
+        <file>poto/Intersect1.png</file>
+        <file>poto/Intersection 4.png</file>
+        <file>Payment2Page.qml</file>
+        <file>poto/barcode(1) 1.png</file>
+        <file>poto/barcode(2) 1.png</file>
+        <file>poto/barcode(3) 1.png</file>
+        <file>poto/logo-dana.png</file>
+        <file>poto/logo-gopay.png</file>
+        <file>poto/logo-ovo.png</file>
+        <file>Payment3Page.qml</file>
+        <file>poto/baloon.png</file>
+        <file>PaymentInfo.qml</file>
+    </qresource>
+    <qresource prefix="/pic"/>
+    <qresource prefix="/files"/>
+</RCC>
