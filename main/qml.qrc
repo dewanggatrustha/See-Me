@@ -47,6 +47,7 @@
         <file>Payment3Page.qml</file>
         <file>poto/baloon.png</file>
         <file>PaymentInfo.qml</file>
+        <file>PaymentPage0.qml</file>
     </qresource>
     <qresource prefix="/pic"/>
     <qresource prefix="/files"/>

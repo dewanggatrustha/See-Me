@@ -129,8 +129,8 @@ ApplicationWindow {
                     Rectangle {
                                   width: 260; height: 40
                                   color: "black"
-                                  y: listView.currentItem.y;
-                                  x: listView.currentItem.x-3;
+                                  //y: listView.currentItem.y;
+                                  //x: listView.currentItem.x-3;
                                   Behavior on y { PropertyAnimation {} }
 
                                   Rectangle{

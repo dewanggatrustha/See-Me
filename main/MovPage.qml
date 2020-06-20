@@ -47,22 +47,22 @@ Item {
     id : modelitem
             ListElement{impat:"poto/a-quiet-place-2_poster_goldposter_com_1 1.png"
                 judull:"A Quiet Place"
-                kett:"keterangan1"}
+                kett:"Horror/Sci-fi Movie"}
             ListElement{impat:"poto/birds-of-prey-and-the-fantabulous-emancipation-of-one-harley-quinn_poster_goldposter_com_1 1.png"
                 judull:"Birds of Prey"
-                kett:"keterangan2"}
+                kett:"Action/Adventure/ <br> Superhero/Crime Movie"}
             ListElement{impat:"poto/the-voyage-of-doctor-dolittle_poster_goldposter_com_1 1.png"
                 judull:"Dolittle"
-                kett:"keterangan3"}
+                kett:"Family/Comedy/Fantasy/<br>Adventure/Action Movie"}
             ListElement{impat:"poto/helloworld.jpg"
                 judull:"Hello World"
-                kett:"keterangan4"}
+                kett:"Animation<br>Sci-fi/Drama Movie"}
             ListElement{impat:"poto/spidermen.jpg"
                 judull:"Spiderman"
-                kett:"keterangan5"}
+                kett:"Animation<br>Comedy/Adventure/Sci-fi Movie"}
             ListElement{impat:"poto/fantasticbeast.jpg"
                 judull:"Fantastic Beast 2"
-                kett:"keterangan6"}
+                kett:"Fantasy/Adventure/Family movie"}
     }
 
 

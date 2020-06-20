@@ -55,7 +55,7 @@ you can transfer via virtual bank account ")
         }
 
         Image {
-            id: image
+            id: ovo
             y: 270
             width: 180
             height: 180
@@ -66,7 +66,7 @@ you can transfer via virtual bank account ")
         }
 
         Image {
-            id: image2
+            id: gopay
             y: 270
             height: 180
             anchors.right: parent.right
@@ -89,7 +89,7 @@ you can transfer via virtual bank account ")
         }
 
         Image {
-            id: image3
+            id: danalogo
             x: 184
             y: 197
             width: 179
@@ -133,9 +133,9 @@ you can transfer via virtual bank account ")
             id: element2
             x: 446
             text: qsTr("9335-7229-8232")
-            anchors.top: image.bottom
+            anchors.top: ovo.bottom
             font.pixelSize: 20
-            anchors.topMargin: 14
+            anchors.topMargin: 15
             font.family: "Tahoma"
             font.bold: true
         }
@@ -144,9 +144,9 @@ you can transfer via virtual bank account ")
             id: element3
             x: 706
             text: qsTr("9303-9655-8341")
-            anchors.top: image2.bottom
+            anchors.top: gopay.bottom
             font.pixelSize: 20
-            anchors.topMargin: 14
+            anchors.topMargin: 15
             font.family: "Tahoma"
             font.bold: true
         }

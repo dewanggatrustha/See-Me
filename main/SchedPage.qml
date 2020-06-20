@@ -56,176 +56,176 @@ Item {
                 anchors.centerIn: parent}}}
         Row{
             id: row
-            x:115
+            x:83
             width: 875
             height: 50
             anchors.top: row0.bottom
-            anchors.topMargin: 30
+            anchors.topMargin: 31
             visible: true
             Text {
                 id:dt1
                 color: "#95c3ff"
-                text: qsTr("date1")
+                text: qsTr("01/07/20")
                 font.pixelSize: 30
                 font.family: "Tahoma"}
             Text {
                 id:tm1
                 color: "#95c3ff"
-                text: qsTr("Time1")
+                text: qsTr("07.00")
                 anchors.left: dt1.right
                 anchors.leftMargin: 160
                 font.pixelSize: 30
                 font.family: "Tahoma"}
             Text {
                 color: "#95c3ff"
-                text: qsTr("Movie1")
+                text: qsTr("A Quiet Place")
                 anchors.left: tm1.right
-                anchors.leftMargin: 295
+                anchors.leftMargin: 240
                 font.pixelSize: 30
                 font.family: "Tahoma"}}
         Row{
             id: row1
-            x:115
+            x:83
             width: 875
             height: 50
             anchors.top: row.bottom
-            anchors.topMargin: 30
+            anchors.topMargin: 31
             visible: true
             Text {
                 id:dt2
                 color: "#95c3ff"
-                text: qsTr("date2")
+                text: qsTr("01/07/20")
                 font.pixelSize: 30
                 font.family: "Tahoma"}
             Text {
                 id:tm2
                 color: "#95c3ff"
-                text: qsTr("Time2")
+                text: qsTr("13.00")
                 anchors.left: dt2.right
                 anchors.leftMargin: 160
                 font.pixelSize: 30
                 font.family: "Tahoma"}
             Text {
                 color: "#95c3ff"
-                text: qsTr("Movie2")
+                text: qsTr("Birds of Prey")
                 anchors.left: tm2.right
-                anchors.leftMargin: 290
+                anchors.leftMargin: 240
                 font.pixelSize: 30
                 font.family: "Tahoma"}}
         Row{
             id: row2
-            x:115
+            x:83
             width: 875
             height: 50
             anchors.top: row1.bottom
-            anchors.topMargin: 30
+            anchors.topMargin: 31
             visible: true
             Text {
                 id:dt3
                 color: "#95c3ff"
-                text: qsTr("date3")
+                text: qsTr("01/07/20")
                 font.pixelSize: 30
                 font.family: "Tahoma"}
             Text {
                 id:tm3
                 color: "#95c3ff"
-                text: qsTr("Time3")
+                text: qsTr("19.00")
                 anchors.left: dt3.right
                 anchors.leftMargin: 160
                 font.pixelSize: 30
                 font.family: "Tahoma"}
             Text {
                 color: "#95c3ff"
-                text: qsTr("Movie3")
+                text: qsTr("Dolittle")
                 anchors.left: tm3.right
-                anchors.leftMargin: 290
+                anchors.leftMargin: 270
                 font.pixelSize: 30
                 font.family: "Tahoma"}}
         Row{
             id: row3
-            x:115
+            x:83
             width: 875
             height: 50
             anchors.top: row2.bottom
-            anchors.topMargin: 30
+            anchors.topMargin: 31
             visible: true
             Text {
                 id:dt4
                 color: "#95c3ff"
-                text: qsTr("date4")
+                text: qsTr("02/07/20")
                 font.pixelSize: 30
                 font.family: "Tahoma"}
             Text {
                 id:tm4
                 color: "#95c3ff"
-                text: qsTr("Time4")
+                text: qsTr("07.00")
                 anchors.left: dt4.right
                 anchors.leftMargin: 160
                 font.pixelSize: 30
                 font.family: "Tahoma"}
             Text {
                 color: "#95c3ff"
-                text: qsTr("Movie4")
+                text: qsTr("Hello World")
                 anchors.left: tm4.right
-                anchors.leftMargin: 290
+                anchors.leftMargin: 250
                 font.pixelSize: 30
                 font.family: "Tahoma"}}
         Row{
             id: row4
-            x:115
+            x:83
             width: 875
             height: 50
             anchors.top: row3.bottom
-            anchors.topMargin: 30
+            anchors.topMargin: 31
             visible: true
             Text {
                 id:dt5
                 color: "#95c3ff"
-                text: qsTr("date5")
+                text: qsTr("02/07/20")
                 font.pixelSize: 30
                 font.family: "Tahoma"}
             Text {
                 id:tm5
                 color: "#95c3ff"
-                text: qsTr("Time5")
+                text: qsTr("13.00")
                 anchors.left: dt5.right
                 anchors.leftMargin: 160
                 font.pixelSize: 30
                 font.family: "Tahoma"}
             Text {
                 color: "#95c3ff"
-                text: qsTr("Movie5")
+                text: qsTr("Spiderman")
                 anchors.left: tm5.right
-                anchors.leftMargin: 290
+                anchors.leftMargin: 255
                 font.pixelSize: 30
                 font.family: "Tahoma"}}
         Row{
             id: row5
-            x:115
+            x:83
             width: 875
             height: 50
             anchors.top: row4.bottom
-            anchors.topMargin: 30
+            anchors.topMargin: 31
             visible: true
             Text {
                 id:dt6
                 color: "#95c3ff"
-                text: qsTr("date6")
+                text: qsTr("02/07/20")
                 font.pixelSize: 30
                 font.family: "Tahoma"}
             Text {
                 id:tm6
                 color: "#95c3ff"
-                text: qsTr("Time6")
+                text: qsTr("19.00")
                 anchors.left: dt6.right
                 anchors.leftMargin: 160
                 font.pixelSize: 30
                 font.family: "Tahoma"}
             Text {
                 color: "#95c3ff"
-                text: qsTr("Movie6")
+                text: qsTr("Fantastic Beast 2")
                 anchors.left: tm6.right
-                anchors.leftMargin: 290
+                anchors.leftMargin: 220
                 font.pixelSize: 30
                 font.family: "Tahoma"}}
     }

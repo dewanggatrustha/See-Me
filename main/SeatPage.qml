@@ -10,6 +10,7 @@ Item {
     height: 843
 
     property int price: 0
+    property bool ret: false
 
 ThePrice{
     id : seatPrice
@@ -65,6 +66,7 @@ ThePrice{
                                         price += -35000
                                     }
                                     rect.isgrey = !rect.isgrey
+                                    ret = true
                                     console.log("chosen")
                                     //seatPrice.hargatentu("set!")
                                     }}
@@ -145,7 +147,7 @@ ThePrice{
                 cursorShape: Qt.PointingHandCursor
                 onClicked: {
                     if (price!=0){
-                        stackView.replace("PaymentPage.qml")
+                        stackView.replace("PaymentPage0.qml")
                     }
                     console.log("proceed");
                 }
@@ -189,6 +191,16 @@ ThePrice{
         source: "poto/office-chair 2.png"
     }
 
+
+    /*function setting(){
+        if(ret==true){
+          rect1.enabled =false
+        }
+        else {
+            return ret = false
+        }
+
+    }*/
 }
 
 /*##^##

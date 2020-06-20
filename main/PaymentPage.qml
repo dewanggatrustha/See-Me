@@ -32,6 +32,7 @@ Item {
             y: 0
             width: 533
             height: 676
+            color: "#f15f79"
             radius: 20
 
             gradient: Gradient {
@@ -176,7 +177,7 @@ Item {
             x: 703
             y: 418
             color: "#ffffff"
-            text: qsTr("Rp. 0,-")
+            text: "Rp.0"
             font.bold: true
             font.pixelSize: 55
         }
