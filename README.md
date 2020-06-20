@@ -14,8 +14,7 @@ Halaman untuk pemilihan tempat duduk yang ingin dipesan.
 
 ### 3. Payment Page
 Halaman untuk pembayaran setelah memesan.
-![Desktop - 3](https://user-images.githubusercontent.com/57487611/79226826-3307f400-7e89-11ea-8b00-4c755ddb2da2.png)
-
+![Desktop - 3](https://user-images.githubusercontent.com/57487611/85203365-7a05e000-b337-11ea-9f8b-dd4ac4228adf.png)
 ### 4. Schedule Page
 Halaman untuk memberi jadwal apa yang akan tayang dan sedang tayang.
 ![Desktop - 4](https://user-images.githubusercontent.com/57487611/79227326-e96bd900-7e89-11ea-91f4-07a1762bd016.png)
