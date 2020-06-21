@@ -1,7 +1,21 @@
 # See-Me
-Aplikasi pemesanan tiket bioskop
+Aplikasi pemesanan Tiket Bioskop
 
-Dibangun dengan Qt
+Download -> https://github.com/me1oxx/See-Me/releases
+
+Dibangun dan dibuat dengan Qt oleh :
+
+Rizki Mahjati Prie Husna
+(4611419026)
+
+
+Rananggana Trustha Dewangga
+(4611419054)
+
+
+Andhika Cahya Rizqillah
+(4611419064)
+
 
 ## Mockup Aplikasi
 ### 1. Movie Page
