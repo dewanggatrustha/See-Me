@@ -1,5 +1,6 @@
 # See-Me
 Aplikasi pemesanan Tiket Bioskop
+Download -> https://github.com/me1oxx/See-Me/releases
 
 Dibangun dan dibuat dengan Qt oleh :
 
