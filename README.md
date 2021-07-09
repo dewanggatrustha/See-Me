@@ -13,10 +13,6 @@ Rananggana Trustha Dewangga
 (4611419054)
 
 
-Andhika Cahya Rizqillah
-(4611419064)
-
-
 ## Mockup Aplikasi
 ### 1. Movie Page
 Halaman pemilihan film yang sedang tersedia.
